@@ -50,7 +50,7 @@ function App() {
             isAuthentication ? (
               <Navigate to={'/dasboard'} />
             ) : (
-              <Register onLogin={handleLogin} />
+              <Register />
             )
           }
         />
